@@ -29,3 +29,14 @@ def get_window_rect(window_title=""):
 # Get AQ3D window coordinates
 time.sleep(5)
 game_rect = get_window_rect("AQ3D")
+print(game_rect)
+
+# window_title = "AQ3D"
+# hwnd = win32gui.FindWindow(None, window_title)
+
+# if hwnd:
+#     win32gui.ShowWindow(hwnd, win32con.SW_RESTORE)  # Restore if minimized
+#     win32gui.SetForegroundWindow(hwnd)
+#     win32gui.SetActiveWindow(hwnd)
+# else:
+#     print(f"Window '{window_title}' not found.")
